@@ -1,0 +1,38 @@
+footer {
+  background: #333;
+  padding: 40px 0px;
+
+  .row {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+
+    .footer-nav {
+      display: inline-flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 40px;
+
+      li {
+        list-style: none;
+        padding: 0 8px 0;
+        border-right: 1px solid #4d4d4d;
+        margin-bottom: 10px;
+        &:last-child {
+          border-right: none;
+        }
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+    
+    .footer-logo {
+      margin: 0 auto;
+      max-height: 70px;
+      max-width: 134px;
+      display: block;
+    }
+  }
+}
